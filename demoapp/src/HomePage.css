@@ -1,0 +1,106 @@
+
+.homepage{
+    position: relative;
+    /* top: 10px; */
+  }
+  .img{
+      /* position:relative; */
+    background: url('./Component/Assets/background_image.jpg');
+    background-size: cover;
+    background-position: center center; 
+    width: 100%;
+    min-height: 100vh;
+    filter: blur(5px); 
+    /* z-index: -1; */
+   
+}
+
+/* .blur-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+ .text{
+ position: absolute; 
+ /* top: 20%;
+left:10%; */
+top:0px;
+left: 64px;
+transform: translate(-50%,-50%);
+/* margin-top: -730px; */
+color: aliceblue;
+/* margin-left: 500px; */
+/* z-index: -1; */
+} 
+
+.text2{
+  position: absolute;
+  top: 35%;
+  color: white;
+  margin-left: 18%;
+  }
+
+  .text2 p{
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: 300;
+  }
+
+  .homepage-2{
+    position: absolute;
+    top: 48%;
+    left: 18%;
+  }
+
+  .search{
+    display: flex;
+      gap: 70px;
+  }
+
+  .search input{
+    padding:9px 325px 9px 20px;
+    font-style: italic;
+  }
+
+  .search button{
+    background-color:blue ;
+    padding: 5px 28px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .search2{
+    margin-top: 22px;
+    display: flex;
+    gap: 87px;
+  }
+
+  .check-box{
+    display: flex;
+    gap: 10px;
+    color: white;
+  }
+
+  .selectbox select{
+    display: inline-block;
+    padding: 1px 0px;
+  }
+
+  .register-btn{
+    position: relative;
+    top: 44px;
+    left: 313px;
+  }
+
+  .register-btn button{
+          padding: 7px 12px;
+          background-color: blue;
+          color: white;
+  }
+
+
+                                        

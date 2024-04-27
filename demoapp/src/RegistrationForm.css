@@ -1,0 +1,57 @@
+.register-img img{
+    width: 100px;
+    height: 100px;
+}
+
+.register-img p{
+    position: relative;
+    top: -10px;
+    color: blue;
+}
+
+.form{
+position: relative;
+bottom: 280px;
+background-color: white;
+}
+
+.register-1{
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+}
+
+.register{
+    background-color: blue;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.register p img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.register-information{
+    position: relative;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top:20%;
+}
+
+.full-name{
+    display: flex;
+    gap: 10px;
+}
+
+.btn{
+    position: relative;
+    left: 90px;
+    bottom: 4px;
+    display: flex;
+    gap: 10px;
+}
